@@ -1,18 +1,40 @@
 body {
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 24px;
+    margin-top: 0px;
 }
 
 .navbar {
     display: flex;
     justify-content:space-between;
     margin-bottom: 43px;
+    padding-top: 24px;
+    padding-right: 27px;
+    top: 0px;
 }
 
-img.accueil{
-    width: 61.09px;
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     padding-top: 20px;
+}
+
+li {
+    display: inline;
+    padding-left: 50px;
+    top: 0px;
+}
+
+nav li a:hover{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 40px;
+}
+
+img.logo{
+    width: 61.09px;
+    padding-top: 15px;
 }
 
 h1 {
@@ -117,19 +139,20 @@ a:hover, a:active {
     color: #0065FC;
 }
 
-ul {
-    padding-right: 27px;
-}
-
-il {
-    padding-left: 50px;
-    top: 0px;
+a:hover {
+    border-top: 2px dotted #0065FC;
 }
 
 .offersMain {
     background: #F2F2F2;
     border-radius: 20px;
     padding: 40px;
+    height: 626px;
+    width: 880px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+
 }
 
 .offersGrid {
@@ -156,6 +179,7 @@ il {
 .filterDiv {
     background: #FFFFFF;
     border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .popular-img {
