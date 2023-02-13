@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+img.accueil{
+    flex: 0 0 auto;
+    position: absolute;
+    width: 61.09px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    margin-left: 55px;
+    margin-top: 44px;
+}
+
+nav {
+    flex: 1 1 auto;
+}
