@@ -1,19 +1,170 @@
-header {
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 24px;
+}
+
+.navbar {
     display: flex;
-    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 43px;
 }
 
 img.accueil{
-    flex: 0 0 auto;
-    position: absolute;
     width: 61.09px;
-    height: 19px;
-    left: 0px;
-    top: 0px;
-    margin-left: 55px;
-    margin-top: 44px;
+    padding-top: 20px;
 }
 
-nav {
-    flex: 1 1 auto;
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px;
+    padding-left: 16px;
+}
+
+::placeholder {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+    opacity: 1;
+}
+
+.fa-location-dot {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 15px;
+    padding-top: 16px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+
+}
+
+input {
+    padding: 16px;
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.filterBar {
+    display: flex;
+    height: 50px;
+}
+
+#filters {
+    position: relative;
+    top: 50%;
+}
+
+button {
+    border: 3px lightgrey;
+    box-sizing: border-box;
+    background: #DEEBFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    margin-left: 25px;
+}
+
+p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+}
+
+a:link, a:visited{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: #0065FC;
+}
+
+ul {
+    padding-right: 27px;
+}
+
+il {
+    padding-left: 50px;
+    top: 0px;
+}
+
+.offersMain {
+    background: #F2F2F2;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.offersGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "Title Title Title"
+    "Hotel1 Hotel2 Hotel3"
+    "Hotel4 Hotel5 Hotel6"
+    "Plus Plus Plus";
+    grid-gap: 31px;
+}
+.Title { grid-area: Title; }
+.Hotel1 { grid-area: Hotel1; }
+.Hotel2 { grid-area: Hotel2; }
+.Hotel3 { grid-area: Hotel3; }
+.Hotel4 { grid-area: Hotel4; }
+.Hotel5 { grid-area: Hotel5; }
+.Hotel6 { grid-area: Hotel6; }
+.Plus {grid-area: Plus;}
+
+.filterDiv {
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.popular-img {
+    width: 246px;
+    height: 124px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.Prix {
+    padding-left: 16px;
 }
