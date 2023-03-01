@@ -4,6 +4,32 @@ body {
     margin-right: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+.blue {
+    color: #0065FC;
+}
+
+.grey {
+    color: #F2F2F2;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .navbar {
@@ -36,8 +62,7 @@ img.logo{
 }
 
 h1 {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
+    
     font-size: 22px;
     line-height: 26px;
     margin-bottom: 0px;
@@ -341,30 +366,6 @@ input[type=text] {
     padding-top: 9px;
     padding-bottom: 11px;
     padding-left: 16px;
-}
-
-.blue {
-    color: #0065FC;
-}
-
-.grey {
-    color: #D2D2D2;
-}
-
-.flex {
-    display: flex;
-}
-
-.row {
-    flex-direction: row;
-}
-
-.column {
-    flex-direction: column;
-}
-
-.space-between {
-    justify-content: space-between;
 }
 
 .sponsoredDiv {
