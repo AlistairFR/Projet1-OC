@@ -24,15 +24,17 @@
    <main>
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p>En plein centre-ville ou en plaine nature</p>
-      <form action="#" method="get" class="recherche">
-         <div class="recherche">
+      <div class="form">
+         <form action="#" method="get" class="recherche flex row">
             <i class="fas fa-location-dot"></i>
-           <input type="text" name="recherche" id="recherche" placeholder="Marseille, France" required>
-         </div>
-         <div class="recherche-validation">
-           <input type="submit" value="Rechercher">
-         </div>
-      </form>
+            <div class="recherche">
+            <input type="text" name="recherche" id="recherche" placeholder="Marseille, France" required>
+            </div>
+            <div class="recherche-validation">
+            <input type="submit" value="Rechercher">
+            </div>
+         </form>
+      </div>
       <section class="filterBar">
          <h2 class="filterTitle">Filtres</h2>
          <div id="filters">
