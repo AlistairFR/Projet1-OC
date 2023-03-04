@@ -63,13 +63,13 @@ li {
 }
 
 .fa-info {
-    padding: 7px;
+    padding: 7px 12px;
     border: 1px solid #F2F2F2;
-    border-radius: 50;
-    -webkit-border-radius: 50;
-    -moz-border-radius: 50;
-    -ms-border-radius: 50;
-    -o-border-radius: 50;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 h1 {
@@ -186,7 +186,7 @@ button {
     padding-right: 15px;
 }
 
-button.active {
+button:hover {
     background: #DEEBFF;
 }
 
@@ -205,6 +205,7 @@ p.info {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    margin-bottom: 40px;
 }
 
 a:link, a:visited{
