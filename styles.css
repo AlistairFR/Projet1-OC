@@ -32,11 +32,23 @@ body {
     justify-content: space-between;
 }
 
+/* Barre de navigation */
+
 .navbar {
     margin-bottom: 63px;
     padding-top: 24px;
     padding-right: 27px;
     top: 0px;
+}
+
+img.logo{
+    width: 61.09px;
+    padding-top: 15px;
+}
+nav a:hover{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 42px;
 }
 
 .nav-links {
@@ -46,19 +58,18 @@ body {
     padding-top: 20px;
 }
 
-nav a:hover{
-    color: #0065FC;
-    border-top: 2px solid #0065FC;
-    padding-top: 42px;
-}
-
 li {
     padding-left: 67px;
 }
 
-img.logo{
-    width: 61.09px;
-    padding-top: 15px;
+.fa-info {
+    padding: 7px;
+    border: 1px solid #F2F2F2;
+    border-radius: 50;
+    -webkit-border-radius: 50;
+    -moz-border-radius: 50;
+    -ms-border-radius: 50;
+    -o-border-radius: 50;
 }
 
 h1 {
