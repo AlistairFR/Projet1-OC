@@ -3,15 +3,12 @@
 <head>
    <title>Booki</title>
    <link rel="stylesheet" type="text/css" href="styles.css">
-   <link rel="stylesheet" href="https://kit.fontawesome.com/15cef342db.css" crossorigin="anonymous">
    <link rel="stylesheet" href="Ressources/css/all.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
    <header>
-      <nav class="navbar flex row space-between">
+      <nav class="navbar flex space-between">
          <div>
             <img class="logo" src="images/logo/Booki.png" alt="Accueil de Booki" title="Accueil">
          </div>
@@ -35,10 +32,10 @@
             </div>
          </form>
       </div>
-      <section class="filterBar">
-         <h2 class="filterTitle">Filtres</h2>
+      <section class="filterBar flex">
+         <p class="font-18">Filtres</p>
          <div id="filters">
-            <button class="btn" onclick="filterSelection('economique')"><i class="fa-solid fa-money-bill-wave iconFilter"></i> Economique</button>
+            <button class="btn" onclick="filterSelection('economique')"><i class="fa-solid fa-money-bill-wave iconFilter"></i> Économique</button>
             <button class="btn" onclick="filterSelection('familial')"><i class="fa-solid fa-person iconFilter"></i> Familial</button>
             <button class="btn" onclick="filterSelection('romantique')"><i class="fa-solid fa-heart iconFilter"></i> Romantique</button>
             <button class="btn" onclick="filterSelection('animaux')"><i class="fa-solid fa-dog iconFilter"></i> Animaux autorisés</button>
@@ -47,7 +44,7 @@
       <p class="info"><i class="fa-solid fa-info blue"></i> Plus de 500 logements sont disponibles dans cette ville</p>
       <section class="offers flex row space-between">
          <section class="offersMain">
-            <h1 class="Title">Hébergements à Marseille</h1>
+            <h2>Hébergements à Marseille</h2>
             <div class="hebergements flex wrap space-around">
                <a href="#">
                   <article class="filterDiv economique">
@@ -134,11 +131,11 @@
                   </article>
                </a>
             </div>
-            <h2 class="Plus">Afficher plus</h2>
+            <a class="font-18" href="#">Afficher plus</a>
          </section>
          <section class="offersSponsored space-between">
             <div class="flex row space-between ">
-               <h1>Les plus populaires</h1>
+               <h2>Les plus populaires</h2>
                <i class="fa-solid fa-chart-line blue"></i>
             </div>
             <a href="#">
@@ -197,7 +194,7 @@
             </a>
          </section>
       </section>
-      <h1>Activités à Marseille</h1>
+      <h2>Activités à Marseille</h2>
       <section class="activites">
          <a href="#">
             <article>
@@ -225,20 +222,20 @@
          </a>
       </section>
    </main>
-   <footer>
-      <div class="footerDiv">
-         <h2>A propos</h2>
+   <footer class="flex space-around">
+      <div class="footerDiv flex column">
+         <p class="font-18">A propos</p>
          <a href="#">Fontionnement du site</a>
          <a href="#">Conditions générales</a>
          <a href="#">Données et confidentialité</a>
       </div>
-      <div class="footerDiv">
-         <h2>Nos hébergements</h2>
+      <div class="footerDiv flex column">
+         <p class="font-18">Nos hébergements</p>
          <a href="#">Charte qualité</a>
          <a href="#">Proposer votre hôtel</a>
       </div>
-      <div class="footerDiv">
-         <h2>Assistance</h2>
+      <div class="footerDiv flex column">
+         <p class="font-18">Assistance</p>
          <a href="#">Centre d'aide</a>
          <a href="#">Nous contacter</a>
       </div>
