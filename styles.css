@@ -67,10 +67,6 @@ nav a:hover{
     padding-top: 20px;
 }
 
-li {
-    padding-left: 67px;
-}
-
 .fa-info {
     padding: 7px 12px;
     border: 1px solid #F2F2F2;
@@ -225,6 +221,11 @@ a:link, a:visited{
     line-height: 19px;
     text-decoration: none;
     color: black;
+}
+
+li a {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 li a:hover, a:active {
