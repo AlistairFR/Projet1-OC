@@ -389,3 +389,9 @@ footer {
         flex-direction: row;
     }
 }
+
+/* Media queries Telephone */
+
+@media screen and (max-width: 768px) {
+
+}
