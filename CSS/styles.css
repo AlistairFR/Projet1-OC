@@ -333,7 +333,7 @@ h3 {
 
 .activitesTitle {
     position: relative;
-    bottom: 50px;
+    bottom: 60px;
     padding-left: 19px;
     padding-top: 20px;
     padding-bottom: 21px;
@@ -352,11 +352,16 @@ h3 {
 
 .activites {
     margin-top: 18px;
+    gap: 10px;
 }
 
-.activites-img {
-    width: 302px;
+.activites-cards {
+    max-width: 300px;
     height: 445px;
+}
+
+.activites-img {width: 100%;
+    height: 100%;
     object-fit: cover;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -370,7 +375,7 @@ h3 {
 footer {
     background-color: #F2F2F2;
     padding-top: 45px;
-    margin-top: 20px;
+    margin-top: 40px;
     padding-bottom: 60px;
 }
 
@@ -387,6 +392,5 @@ footer {
 @media screen and (max-width: 992px) {
     .offers {
         flex-direction: column;
-        width: 100%;
     }
 }
