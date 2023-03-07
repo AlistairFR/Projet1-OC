@@ -253,11 +253,6 @@ h3 {
     background: #F2F2F2;
     border-radius: 20px;
     padding: 40px;
-    height: 626px;
-    width: 65%;
-    left: 0px;
-    top: 0px;
-    border-radius: 20px;
 }
 
 .hebergements {
@@ -292,14 +287,10 @@ h3 {
 /* Section populaires */
 
 .offersSponsored {
-    display: flex;
-    flex-direction: column;
     background: #F2F2F2;
     border-radius: 20px;
     padding: 40px;
     padding-left: 37px;
-    height: 626px;
-    width: 420px;
     left: 0px;
     top: 0px;
     border-radius: 20px;
@@ -307,7 +298,7 @@ h3 {
 
 .sponsoredDiv {
     height: 144px;
-    width: 343px;
+    width: 100%;
     padding: 5px;
     background: white;
     border-radius: 20px;
@@ -392,5 +383,9 @@ footer {
 @media screen and (max-width: 992px) {
     .offers {
         flex-direction: column;
+    }
+
+    .offersSponsored {
+        flex-direction: row;
     }
 }
