@@ -67,6 +67,7 @@ img.logo{
     width: 61px;
     padding-top: 15px;
 }
+
 nav a:hover{
     color: #0065FC;
     border-top: 2px solid #0065FC;
@@ -148,6 +149,10 @@ input[type=submit] {
     -moz-border-radius: 0px 16px 16px 0px;
     -ms-border-radius: 0px 16px 16px 0px;
     -o-border-radius: 0px 16px 16px 0px;
+}
+
+.fa-search::before {
+    display: none;
 }
 
 input[type=text] {
@@ -291,8 +296,6 @@ h3 {
     border-radius: 20px;
     padding: 40px;
     padding-left: 37px;
-    left: 0px;
-    top: 0px;
     border-radius: 20px;
 }
 .offersSponsoredDivs a {
@@ -404,5 +407,80 @@ footer {
 /* Media queries Telephone */
 
 @media screen and (max-width: 768px) {
+    body {
+        margin: 0px;
+    }
     
+    main {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        justify-content: space-around;
+    }
+
+    nav a {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    nav a:hover{
+        color: #0065FC;
+        border-top: none;
+        padding-top: 0px;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 20px;
+    }
+
+    .form {
+        margin: 30px 20% 30px 20%;
+    }
+
+    input[type=submit] {
+        display: none;
+    }
+
+    .fa-search::before {
+        display: block;
+        background-color: #0065FC;
+        border: 1px solid #0065FC;
+        border-radius: 0px 16px 16px 0px;
+        color: white;
+        padding: 16px 16px 15px 16px;
+        cursor: pointer;
+    }
+
+    .filterBar {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    #filters {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 15px;
+    }
+
+    .offers {
+        flex-direction: column-reverse;
+    }
+
+    .offersSponsored {
+
+    }
+
+    .offersSponsoredDivs {
+        flex-direction: column;
+    }
+
+    .sponsoredDiv {
+        width: 325%;
+    }
 }
