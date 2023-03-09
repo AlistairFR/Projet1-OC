@@ -503,6 +503,14 @@ footer {
         flex-direction: column;
     }
 
+    .activites-img {
+        width: 240%;
+    }
+
+    .activitesTitle {
+        width: 234%;
+    }
+
     footer {
         flex-direction: column;
     }
