@@ -411,9 +411,6 @@ footer {
         margin: 0px;
     }
 
-    main {
-    }
-
     .Accueil, .Title, .activites {
         margin-left: 20px;
         margin-right: 20px;
@@ -423,6 +420,24 @@ footer {
     nav {
         flex-direction: column;
         align-items: center;
+    }
+
+    ul {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nav-links li {
+        width: 50%;
+    }
+
+    .nav-links li a {
+        padding: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 20px;
     }
 
     nav a:hover{
@@ -435,6 +450,11 @@ footer {
 
     .form {
         margin: 30px 20% 30px 20%;
+        max-width: 100%;
+    }
+
+    .recherche, #recherche {
+        width: 100%;
     }
 
     input[type=submit] {
@@ -453,7 +473,7 @@ footer {
         -moz-border-radius: 0px 16px 16px 0px;
         -ms-border-radius: 0px 16px 16px 0px;
         -o-border-radius: 0px 16px 16px 0px;
-}
+    }
 
     .filterBar {
         flex-direction: column;
@@ -520,7 +540,7 @@ footer {
         max-height: 200px;
         margin-bottom: 24px;
     }
-    
+
     footer {
         flex-direction: column;
         padding-bottom: 20px;
