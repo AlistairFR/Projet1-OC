@@ -130,7 +130,11 @@ form {
 }
 
 input {
-    padding: 16px;
+    padding: 14px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 input[type=submit] {
