@@ -405,7 +405,6 @@ footer {
     .offersSponsoredDivs a {
         width: 30%;
     }
-
 }
 
 /* Media queries Telephone */
@@ -485,9 +484,6 @@ footer {
     }
 
     #filters {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
         width: 100%;
     }
 
@@ -496,7 +492,6 @@ footer {
     }
 
     #filters button {
-        box-sizing: border-box;
         width: 43%;
         margin: 15px 15px 0 15px;
     }
@@ -565,5 +560,8 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-    
+    #filters button {
+        width: 38%;
+        font-size: 13px;
+    }
 }
