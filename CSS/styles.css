@@ -1,11 +1,11 @@
 body {
-    max-width: 1400px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 a {
@@ -202,8 +202,7 @@ button {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
-    height: 50px;
-    padding-right: 15px;
+    padding: 15px;
 }
 
 button:hover {
@@ -406,6 +405,7 @@ footer {
     .offersSponsoredDivs a {
         width: 30%;
     }
+
 }
 
 /* Media queries Telephone */
@@ -453,7 +453,6 @@ footer {
     }
 
     .form {
-        margin: 30px 20% 30px 20%;
         max-width: 100%;
     }
 
@@ -480,17 +479,26 @@ footer {
     }
 
     .filterBar {
+        height: auto;
         flex-direction: column;
-        align-items: baseline;
-        margin-bottom: 150px;
+        align-items: flex-start;
     }
 
     #filters {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 15px;
-        margin-top: 15px;
+    }
+
+    .filterBar .font-18 {
+        margin-left: 15px;
+    }
+
+    #filters button {
+        box-sizing: border-box;
+        width: 43%;
+        margin: 15px 15px 0 15px;
     }
 
     .offers {
@@ -554,4 +562,8 @@ footer {
         padding-bottom: 40px;
         padding-left: 30px;
     }
+}
+
+@media screen and (max-width: 500px) {
+    
 }
