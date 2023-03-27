@@ -65,10 +65,10 @@ img.logo{
     padding-top: 15px;
 }
 
-nav a:hover{
+nav a:hover, nav a:focus{
     color: #0065FC;
     border-top: 2px solid #0065FC;
-    padding-top: 50px;
+    padding-top: 42px;
 }
 
 .nav-links {
@@ -86,13 +86,6 @@ li a {
     padding-right: 25px;
 }
 
-li a:hover, a:active {
-    color: #0065FC;
-}
-
-li a:hover {
-    border-top: 2px solid #0065FC;
-}
 
 /* Titre et description */
 
@@ -440,7 +433,7 @@ footer {
         padding-bottom: 20px;
     }
 
-    nav a:hover{
+    nav a:hover, nav a:focus{
         color: #0065FC;
         border-top: none;
         padding-top: 0px;
@@ -556,9 +549,23 @@ footer {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 569px) {
     #filters button {
         width: 38%;
         font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1180px) and (min-width: 993px) {
+    .popular-img {
+        width: 177px;
+    }
+
+    .offers {
+        gap: 20px;
+    }
+
+    .wrap {
+        gap: 4px;
     }
 }
