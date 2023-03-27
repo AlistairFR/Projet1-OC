@@ -554,6 +554,10 @@ footer {
         width: 38%;
         font-size: 13px;
     }
+
+    .iconFilter {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 1180px) and (min-width: 993px) {
@@ -567,5 +571,34 @@ footer {
 
     .wrap {
         gap: 4px;
+    }
+}
+
+@media screen and (max-width: 815px) and (min-width: 769px) {
+    .popular-img {
+        width: 200px;
+    }
+
+    .wrap {
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 950px) and (min-width: 769px) {
+    #filters button {
+        font-size: 13px;
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    #filters button {
+        width: 49%;
+        padding: 15px 1px;
+        margin: 15px 0px;
+    }
+
+    .Accueil {
+        margin: 0px 15px;
     }
 }
