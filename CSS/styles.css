@@ -549,17 +549,6 @@ footer {
     }
 }
 
-@media screen and (max-width: 569px) {
-    #filters button {
-        width: 38%;
-        font-size: 13px;
-    }
-
-    .iconFilter {
-        padding: 0;
-    }
-}
-
 @media screen and (max-width: 1180px) and (min-width: 993px) {
     .popular-img {
         width: 177px;
@@ -588,6 +577,17 @@ footer {
     #filters button {
         font-size: 13px;
         margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    #filters button {
+        width: 38%;
+        font-size: 13px;
+    }
+
+    .iconFilter {
+        padding: 0;
     }
 }
 
