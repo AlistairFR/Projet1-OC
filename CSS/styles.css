@@ -549,6 +549,28 @@ footer {
     }
 }
 
+@media screen and (max-width: 1450px) and (min-width: 769px) {
+    .navbar {
+        margin-left: 20px;
+    }
+
+    .activites {
+        margin: 0px 20px;
+    }
+
+    .Title {
+        margin: 0px 0px 10px 20px;
+    }
+
+    .Accueil {
+        margin: 0px 20px;
+    }
+
+    Footer {
+        margin: 40px 20px 0px 20px;
+    }
+}
+
 @media screen and (max-width: 1180px) and (min-width: 993px) {
     .popular-img {
         width: 177px;
@@ -573,10 +595,10 @@ footer {
     }
 }
 
-@media screen and (max-width: 950px) and (min-width: 769px) {
+@media screen and (max-width: 959px) and (min-width: 769px) {
     #filters button {
         font-size: 13px;
-        margin-left: 25px;
+        margin-left: 16px;
     }
 }
 
